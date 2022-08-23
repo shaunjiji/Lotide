@@ -10,8 +10,6 @@ const assertEqual = function(actual, expected) {
 };
 
 function eqArrays(array1, array2) {
-//loop through each element of array and see if elements are identical
-// if any are not equal, break out and return false
 if (array1.length !== array2.length){
  return false;
 }
